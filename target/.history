@@ -1,0 +1,11 @@
+gen-idea
+reload
+update
+exir
+exit
+update
+reload
+update
+;container:stop;container:start
+~; container:start; container:reload /
+exit

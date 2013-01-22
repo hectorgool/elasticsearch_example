@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="net.liftweb"
+		module="lift-2.5-starter-template$sources_javadoc_2.9.1"
+		revision="0.0.1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
+		date="20130121143638"/>
+	<dependencies>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.3.167" status="release" pubdate="20120523000523" resolver="public" artresolver="public" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2337" time="0" location="/Users/hectorgonzalez/.ivy2/cache/com.h2database/h2/ivy-1.3.167.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.167/h2-1.3.167.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.3.167" rev-constraint-default="1.3.167" rev-constraint-dynamic="1.3.167" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="h2" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2911184" time="0" location="/Users/hectorgonzalez/.ivy2/cache/com.h2database/h2/docs/h2-1.3.167-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.167/h2-1.3.167-javadoc.jar"/>
+					</artifact>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1275181" time="0" location="/Users/hectorgonzalez/.ivy2/cache/com.h2database/h2/jars/h2-1.3.167.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.167/h2-1.3.167.jar"/>
+					</artifact>
+					<artifact name="h2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="964639" time="0" location="/Users/hectorgonzalez/.ivy2/cache/com.h2database/h2/srcs/h2-1.3.167-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.167/h2-1.3.167-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.0.6" status="release" pubdate="20120607154239" resolver="releases" artresolver="releases" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="26">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="11615" time="0" location="/Users/hectorgonzalez/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="251784" time="0" location="/Users/hectorgonzalez/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.6.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6.jar"/>
+					</artifact>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="203232" time="0" location="/Users/hectorgonzalez/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.0.6-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6-sources.jar"/>
+					</artifact>
+					<artifact name="logback-classic" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="963485" time="0" location="/Users/hectorgonzalez/.ivy2/cache/ch.qos.logback/logback-classic/docs/logback-classic-1.0.6-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.0.6" status="release" pubdate="20120607154148" resolver="releases" artresolver="releases" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="27">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="9706" time="0" location="/Users/hectorgonzalez/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="349706" time="0" location="/Users/hectorgonzalez/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.6.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6.jar"/>
+					</artifact>
+					<artifact name="logback-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1574692" time="0" location="/Users/hectorgonzalez/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.0.6-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="300081" time="0" location="/Users/hectorgonzalez/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.0.6-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftmodules" name="lift-jquery-module_2.9.1">
+			<revision name="2.5-M4-2.1" status="release" pubdate="20130112172800" resolver="releases" artresolver="releases" homepage="https://github.com/karma4u101/lift-jquery-module" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://maven.apache.org/ref/2.1.0/maven-profile/license.html"/>
+				<metadata-artifact status="no" details="" size="3408" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftmodules/lift-jquery-module_2.9.1/ivy-2.5-M4-2.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.9.1/2.5-M4-2.1/lift-jquery-module_2.9.1-2.5-M4-2.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4-2.1" rev-constraint-default="2.5-M4-2.1" rev-constraint-dynamic="2.5-M4-2.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-jquery-module_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="257849" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftmodules/lift-jquery-module_2.9.1/docs/lift-jquery-module_2.9.1-2.5-M4-2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.9.1/2.5-M4-2.1/lift-jquery-module_2.9.1-2.5-M4-2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="lift-jquery-module_2.9.1" type="jar" ext="jar" status="no" details="" size="467244" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftmodules/lift-jquery-module_2.9.1/jars/lift-jquery-module_2.9.1-2.5-M4-2.1.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.9.1/2.5-M4-2.1/lift-jquery-module_2.9.1-2.5-M4-2.1.jar"/>
+					</artifact>
+					<artifact name="lift-jquery-module_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="297706" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftmodules/lift-jquery-module_2.9.1/srcs/lift-jquery-module_2.9.1-2.5-M4-2.1-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.9.1/2.5-M4-2.1/lift-jquery-module_2.9.1-2.5-M4-2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-mapper_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121523" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3294" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-mapper_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.9.1/2.5-M4/lift-mapper_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-mapper_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="99644" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-mapper_2.9.1/srcs/lift-mapper_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.9.1/2.5-M4/lift-mapper_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+					<artifact name="lift-mapper_2.9.1" type="jar" ext="jar" status="no" details="" size="1492158" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-mapper_2.9.1/jars/lift-mapper_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.9.1/2.5-M4/lift-mapper_2.9.1-2.5-M4.jar"/>
+					</artifact>
+					<artifact name="lift-mapper_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1313670" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-mapper_2.9.1/docs/lift-mapper_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.9.1/2.5-M4/lift-mapper_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-proto_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121547" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-proto_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.9.1/2.5-M4/lift-proto_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-proto_2.9.1" type="jar" ext="jar" status="no" details="" size="250976" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-proto_2.9.1/jars/lift-proto_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.9.1/2.5-M4/lift-proto_2.9.1-2.5-M4.jar"/>
+					</artifact>
+					<artifact name="lift-proto_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15400" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-proto_2.9.1/srcs/lift-proto_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.9.1/2.5-M4/lift-proto_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+					<artifact name="lift-proto_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="304653" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-proto_2.9.1/docs/lift-proto_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.9.1/2.5-M4/lift-proto_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-db_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121558" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3172" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-db_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.9.1/2.5-M4/lift-db_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-db_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20395" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-db_2.9.1/srcs/lift-db_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.9.1/2.5-M4/lift-db_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+					<artifact name="lift-db_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="373272" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-db_2.9.1/docs/lift-db_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.9.1/2.5-M4/lift-db_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lift-db_2.9.1" type="jar" ext="jar" status="no" details="" size="324216" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-db_2.9.1/jars/lift-db_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.9.1/2.5-M4/lift-db_2.9.1-2.5-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-webkit_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121752" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3713" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-webkit_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.9.1/2.5-M4/lift-webkit_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-webkit_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2842924" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-webkit_2.9.1/docs/lift-webkit_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.9.1/2.5-M4/lift-webkit_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lift-webkit_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="731013" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-webkit_2.9.1/srcs/lift-webkit_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.9.1/2.5-M4/lift-webkit_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+					<artifact name="lift-webkit_2.9.1" type="jar" ext="jar" status="no" details="" size="5874504" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-webkit_2.9.1/jars/lift-webkit_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.9.1/2.5-M4/lift-webkit_2.9.1-2.5-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.2.2" status="release" pubdate="20100729154112" resolver="public" artresolver="public" homepage="http://commons.apache.org/fileupload/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="6739" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-fileupload/commons-fileupload/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76153" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-fileupload/commons-fileupload/srcs/commons-fileupload-1.2.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="59590" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar"/>
+					</artifact>
+					<artifact name="commons-fileupload" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="619427" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-fileupload/commons-fileupload/docs/commons-fileupload-1.2.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-testkit_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121234" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3233" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-testkit_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.9.1/2.5-M4/lift-testkit_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-testkit_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18200" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-testkit_2.9.1/srcs/lift-testkit_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.9.1/2.5-M4/lift-testkit_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+					<artifact name="lift-testkit_2.9.1" type="jar" ext="jar" status="no" details="" size="223498" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-testkit_2.9.1/jars/lift-testkit_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.9.1/2.5-M4/lift-testkit_2.9.1-2.5-M4.jar"/>
+					</artifact>
+					<artifact name="lift-testkit_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="367373" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-testkit_2.9.1/docs/lift-testkit_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.9.1/2.5-M4/lift-testkit_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-httpclient" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20070821084407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3153" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-httpclient/commons-httpclient/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="439405" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-httpclient/commons-httpclient/srcs/commons-httpclient-3.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="305001" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.0.4" status="release" pubdate="20051108161641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/logging/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-logging/commons-logging/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35087" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.0.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="38015" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+					</artifact>
+					<artifact name="commons-logging" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="117077" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.0.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-util_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121018" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4010" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-util_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.9.1/2.5-M4/lift-util_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-util_2.9.1" type="jar" ext="jar" status="no" details="" size="1761193" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-util_2.9.1/jars/lift-util_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.9.1/2.5-M4/lift-util_2.9.1-2.5-M4.jar"/>
+					</artifact>
+					<artifact name="lift-util_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="136474" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-util_2.9.1/srcs/lift-util_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.9.1/2.5-M4/lift-util_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+					<artifact name="lift-util_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1235382" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-util_2.9.1/docs/lift-util_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.9.1/2.5-M4/lift-util_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="nu.validator.htmlparser" name="htmlparser">
+			<revision name="1.4" status="release" pubdate="20120607135545" resolver="public" artresolver="public" homepage="http://about.validator.nu/htmlparser/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<license name="The (New) BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3770" time="0" location="/Users/hectorgonzalez/.ivy2/cache/nu.validator.htmlparser/htmlparser/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="htmlparser" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="600069" time="0" location="/Users/hectorgonzalez/.ivy2/cache/nu.validator.htmlparser/htmlparser/docs/htmlparser-1.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="htmlparser" type="jar" ext="jar" status="no" details="" size="295791" time="0" location="/Users/hectorgonzalez/.ivy2/cache/nu.validator.htmlparser/htmlparser/jars/htmlparser-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4.jar"/>
+					</artifact>
+					<artifact name="htmlparser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="356721" time="0" location="/Users/hectorgonzalez/.ivy2/cache/nu.validator.htmlparser/htmlparser/srcs/htmlparser-1.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/nu/validator/htmlparser/htmlparser/1.4/htmlparser-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.mail" name="mail">
+			<revision name="1.4.4" status="release" pubdate="20110127135123" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+				<metadata-artifact status="no" details="" size="6207" time="0" location="/Users/hectorgonzalez/.ivy2/cache/javax.mail/mail/ivy-1.4.4.xml" searched="false" origin-is-local="false" origin-location="http://download.java.net/maven/2/javax/mail/mail/1.4.4/mail-1.4.4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.4.4" rev-constraint-default="1.4.4" rev-constraint-dynamic="1.4.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="mail" type="jar" ext="jar" status="no" details="" size="494924" time="0" location="/Users/hectorgonzalez/.ivy2/cache/javax.mail/mail/jars/mail-1.4.4.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/javax/mail/mail/1.4.4/mail-1.4.4.jar"/>
+					</artifact>
+					<artifact name="mail" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="678697" time="0" location="/Users/hectorgonzalez/.ivy2/cache/javax.mail/mail/srcs/mail-1.4.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/mail/mail/1.4.4/mail-1.4.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20060502184829" resolver="public" artresolver="public" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/hectorgonzalez/.ivy2/cache/javax.activation/activation/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="activation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63338" time="0" location="/Users/hectorgonzalez/.ivy2/cache/javax.activation/activation/srcs/activation-1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
+					</artifact>
+					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="62983" time="0" location="/Users/hectorgonzalez/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20111202203826" resolver="public" artresolver="public" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+				<metadata-artifact status="no" details="" size="7750" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="357085" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="243982" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="/Users/hectorgonzalez/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.1" status="release" pubdate="20120222102242" resolver="public" artresolver="public" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3484" time="0" location="/Users/hectorgonzalez/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1312149" time="0" location="/Users/hectorgonzalez/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="700266" time="0" location="/Users/hectorgonzalez/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1-sources.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="570478" time="0" location="/Users/hectorgonzalez/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20111027145117" resolver="public" artresolver="public" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3307" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="38460" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="56597" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.joda/joda-convert/docs/joda-convert-1.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19105" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121206" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3068" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-json_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.1/2.5-M4/lift-json_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-json_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="442352" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-json_2.9.1/docs/lift-json_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.1/2.5-M4/lift-json_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lift-json_2.9.1" type="jar" ext="jar" status="no" details="" size="467128" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-json_2.9.1/jars/lift-json_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.1/2.5-M4/lift-json_2.9.1-2.5-M4.jar"/>
+					</artifact>
+					<artifact name="lift-json_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33464" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-json_2.9.1/srcs/lift-json_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.9.1/2.5-M4/lift-json_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.4.1" status="release" pubdate="20120128033343" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<metadata-artifact status="no" details="" size="3447" time="0" location="/Users/hectorgonzalez/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27016" time="0" location="/Users/hectorgonzalez/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="paranamer" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="69398" time="0" location="/Users/hectorgonzalez/.ivy2/cache/com.thoughtworks.paranamer/paranamer/docs/paranamer-2.4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="29734" time="0" location="/Users/hectorgonzalez/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.9.1" status="release" pubdate="20110831034129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2566" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.scala-lang/scalap/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.9.1/scalap-2.9.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41667" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.scala-lang/scalap/srcs/scalap-2.9.1-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.9.1/scalap-2.9.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalap" type="jar" ext="jar" status="no" details="" size="841814" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.1.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.9.1/scalap-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-actor_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121311" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2931" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-actor_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.9.1/2.5-M4/lift-actor_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-actor_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="328072" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-actor_2.9.1/docs/lift-actor_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.9.1/2.5-M4/lift-actor_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lift-actor_2.9.1" type="jar" ext="jar" status="no" details="" size="89446" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-actor_2.9.1/jars/lift-actor_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.9.1/2.5-M4/lift-actor_2.9.1-2.5-M4.jar"/>
+					</artifact>
+					<artifact name="lift-actor_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8395" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-actor_2.9.1/srcs/lift-actor_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.9.1/2.5-M4/lift-actor_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-common_2.9.1">
+			<revision name="2.5-M4" status="release" pubdate="20130112121221" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3225" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-common_2.9.1/ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.1/2.5-M4/lift-common_2.9.1-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-common_2.9.1" type="jar" ext="jar" status="no" details="" size="183218" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-common_2.9.1/jars/lift-common_2.9.1-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.1/2.5-M4/lift-common_2.9.1-2.5-M4.jar"/>
+					</artifact>
+					<artifact name="lift-common_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="498926" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-common_2.9.1/docs/lift-common_2.9.1-2.5-M4-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.1/2.5-M4/lift-common_2.9.1-2.5-M4-javadoc.jar"/>
+					</artifact>
+					<artifact name="lift-common_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26778" time="0" location="/Users/hectorgonzalez/.ivy2/cache/net.liftweb/lift-common_2.9.1/srcs/lift-common_2.9.1-2.5-M4-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.9.1/2.5-M4/lift-common_2.9.1-2.5-M4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.2" status="release" pubdate="20121011135524" resolver="releases" artresolver="releases" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<metadata-artifact status="no" details="" size="4469" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47186" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.2-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26083" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="183169" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.2-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2_2.9.1">
+			<revision name="1.12.3" status="release" pubdate="20121113212124" resolver="releases" artresolver="releases" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3438" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.specs2/specs2_2.9.1/ivy-1.12.3.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.9.1/1.12.3/specs2_2.9.1-1.12.3.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="specs2_2.9.1" type="jar" ext="jar" status="no" details="" size="6571131" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.specs2/specs2_2.9.1/jars/specs2_2.9.1-1.12.3.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.9.1/1.12.3/specs2_2.9.1-1.12.3.jar"/>
+					</artifact>
+					<artifact name="specs2_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="539488" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.specs2/specs2_2.9.1/srcs/specs2_2.9.1-1.12.3-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.9.1/1.12.3/specs2_2.9.1-1.12.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.9.1" status="release" pubdate="20110831034108" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2604" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1710518" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.9.1-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-compiler/2.9.1/scala-compiler-2.9.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-scalaz-core_2.9.1">
+			<revision name="6.0.1" status="release" pubdate="20120212225608" resolver="releases" artresolver="releases" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2534" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/ivy-6.0.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.9.1/6.0.1/specs2-scalaz-core_2.9.1-6.0.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="6.0.1" rev-constraint-default="6.0.1" rev-constraint-dynamic="6.0.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="specs2-scalaz-core_2.9.1" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1753132" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/docs/specs2-scalaz-core_2.9.1-6.0.1-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.9.1/6.0.1/specs2-scalaz-core_2.9.1-6.0.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="specs2-scalaz-core_2.9.1" type="jar" ext="jar" status="no" details="" size="4640063" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/jars/specs2-scalaz-core_2.9.1-6.0.1.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.9.1/6.0.1/specs2-scalaz-core_2.9.1-6.0.1.jar"/>
+					</artifact>
+					<artifact name="specs2-scalaz-core_2.9.1" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="140329" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/srcs/specs2-scalaz-core_2.9.1-6.0.1-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.9.1/6.0.1/specs2-scalaz-core_2.9.1-6.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.1" status="release" pubdate="20110831033953" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2322" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template$sources_javadoc_2.9.1" conf="compile" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1131083" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.9.1-sources.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="20381370" time="0" location="/Users/hectorgonzalez/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.9.1-javadoc.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
